@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>{{product().title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-actions>
+        <button mat-flat-button color="primary" style="margin-right: 10px;"
+            (click)="edit.emit()">
+            Editar
+        </button>
+        <button mat-flat-button color="warn">Deletar</button>
+    </mat-card-actions>
+</mat-card>
