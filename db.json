@@ -1,28 +1,16 @@
 {
   "products": [
     {
-      "title": "testeeee",
-      "id": "d98d"
-    },
-    {
-      "id": "a51f",
-      "title": "snakbar Ativado"
-    },
-    {
-      "id": "9787",
-      "title": "agoraaaaaaaa "
-    },
-    {
       "id": "c176",
       "title": "criando novo produto"
     },
     {
-      "title": "trator",
-      "id": "fc27"
-    },
-    {
       "id": "98a8",
       "title": "bazuca assasina"
+    },
+    {
+      "id": "0d1e",
+      "title": "agora o delete ta funfando"
     }
   ]
 }

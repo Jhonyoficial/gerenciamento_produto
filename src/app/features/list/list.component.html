@@ -1,16 +1,14 @@
-
-
 <div class="container">
 
     <div class="list">
         <div class="button-criar-produto">
-            <a mat-raised-button [routerLink]="['/create-product']" 
-            color="primary">
-            Criar Produto 
-        </a>
+            <a mat-raised-button [routerLink]="['/create-product']" color="primary">
+                Criar Produto
+            </a>
         </div>
         @for (product of products; track product.id) {
-            <app-card [product]="product" (edit)="onEdit(product)"></app-card>
+        <app-card [product]="product" (edit)="onEdit(product)" (delete)="openDialog(product)">
+        </app-card>
         }
     </div>
 </div>

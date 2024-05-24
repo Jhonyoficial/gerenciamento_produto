@@ -15,5 +15,10 @@ export class CardComponent {
   product = input.required<Product>()
 
   @Output() edit = new EventEmitter(); 
+  @Output() delete = new EventEmitter();
+
+  onDelete(){
+    this.delete.emit()
+  }
 
 }
